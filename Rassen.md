@@ -82,19 +82,19 @@ deren Ende sie immer noch jung und unversehrt
 aussehen.
 
 ### Eigenschaftsmodifikationen
-| Eigenschaft | Bonus   |
-| ----------- |:-------:|
-| Stärke      | -1      | 
-| Konstitution| -1      |
-| Intelligenz | +1      |
-| Charisma    | +1      |
+| Eigenschaft  | Bonus |
+| ------------ | :---: |
+| Stärke       |  -1   |
+| Konstitution |  -1   |
+| Intelligenz  |  +1   |
+| Charisma     |  +1   |
 
 | Number | Next number | Previous number |
-| :------ |:--- | :--- |
-| Five | Six | Four |
-| Ten | Eleven | Nine |
-| Seven | Eight | Six |
-| Two | Three | One |
+| :----- | :---------- | :-------------- |
+| Five   | Six         | Four            |
+| Ten    | Eleven      | Nine            |
+| Seven  | Eight       | Six             |
+| Two    | Three       | One             |
 
 ### Besondere Eigenheiten
 
@@ -152,12 +152,12 @@ wütenden, im Kampf fliegenden Drachling
 gekämpft hat ändert schnell seine Meinung.
 
 ### Eigenschaftsmodifikationen
-| Eigenschaft       | Bonus   |
-| ----------------- |:-------:|
-| Stärke            | -2      |  
-| Konstitution      | -1      |
-| Geschicklichkeit  | +1      |
-| Wahrnehmung       | +1      |
+| Eigenschaft      | Bonus |
+| ---------------- | :---: |
+| Stärke           |  -2   |
+| Konstitution     |  -1   |
+| Geschicklichkeit |  +1   |
+| Wahrnehmung      |  +1   |
 
 
 
@@ -260,11 +260,11 @@ Fluten gebettet, die den Leichnam dann in ihre
 eisige Tiefe aufnehmen.
 
 ### Eigenschaftsmodifikationen
-| Eigenschaft       | Bonus   |
-| ----------------- |:-------:|
-| Stärke            | -3      |  
-| Konstitution      | -2      |
-| Geschicklichkeit  | +1      |
+| Eigenschaft      | Bonus |
+| ---------------- | :---: |
+| Stärke           |  -3   |
+| Konstitution     |  -2   |
+| Geschicklichkeit |  +1   |
 
 ### Besondere Eigenheiten
 
@@ -311,13 +311,13 @@ Oberfläche gewagt, meistens in der Nähe des
 Wyrmgratgebirges.
 
 ### Eigenschaftsmodifikationen
-| Eigenschaft       | Bonus   |
-| ----------------- |:-------:|
-| Stärke            | -1      |  
-| Konstitution      | -1      |
-| Geschicklichkeit  | +1      |
-| Willenskraft      | +1      |
-| Charisma          | -1      |
+| Eigenschaft      | Bonus |
+| ---------------- | :---: |
+| Stärke           |  -1   |
+| Konstitution     |  -1   |
+| Geschicklichkeit |  +1   |
+| Willenskraft     |  +1   |
+| Charisma         |  -1   |
 
 ### Besondere Eigenheiten
 **Größenklasse:** Klein +1 auf den
@@ -445,13 +445,13 @@ da weder Trolle noch Oger sich "vernünftig"
 dazu äußern wollen oder können.
 
 ### Eigenschaftsmodifikationen
-| Eigenschaft       | Bonus   |
-| ----------------- |:-------:|
-| Stärke            | +3      |  
-| Konstitution      | +2      |
-| Geschicklichkeit  | -1      |
-| Inteligenz        | -3      |
-| Charisma          | -2      |
+| Eigenschaft      | Bonus |
+| ---------------- | :---: |
+| Stärke           |  +3   |
+| Konstitution     |  +2   |
+| Geschicklichkeit |  -1   |
+| Inteligenz       |  -3   |
+| Charisma         |  -2   |
 
 ### Besondere Eigenheiten
 
@@ -532,12 +532,12 @@ Meist sollen dann stets einige "losziehen und
 Nahrung beschaffen."
 
 ### Eigenschaftsmodifikationen
-| Eigenschaft       | Bonus   |
-| ----------------- |:-------:|
-| Konstitution      | +1      |
-| Geschicklichkeit  | +1      |
-| Inteligenz        | -1      |
-| Charisma          | -1      |
+| Eigenschaft      | Bonus |
+| ---------------- | :---: |
+| Konstitution     |  +1   |
+| Geschicklichkeit |  +1   |
+| Inteligenz       |  -1   |
+| Charisma         |  -1   |
 
 ### Besondere Eigenheiten
 
@@ -636,11 +636,11 @@ man zu dem Ort seiner Geburt reist, um dort die
 letzten Momente seines Lebens auszuhauchen.
 
 ### Eigenschaftsmodifikationen
-| Eigenschaft       | Bonus   |
-| ----------------- |:-------:|
-| Geschicklichkeit  | -1      |
-| Wahrnehmung       | +1      |
-| Charisma          | -2      |
+| Eigenschaft      | Bonus |
+| ---------------- | :---: |
+| Geschicklichkeit |  -1   |
+| Wahrnehmung      |  +1   |
+| Charisma         |  -2   |
 
 ### Besondere Fertigkeiten
 +2 Verbergen
@@ -889,12 +889,12 @@ geheimen Tempel, der noch nie von den
 anderen Rassen gesehen.
 
 ### Eigenschaftsmodifikationen
-| Eigenschaft       | Bonus   |
-| ----------------- |:-------:|
-| Geschicklichkeit  | -1      |
-| Konstitution      | -1      |
-| Willenskraft      | -1      |
-| Charisma          | +1      |
+| Eigenschaft      | Bonus |
+| ---------------- | :---: |
+| Geschicklichkeit |  -1   |
+| Konstitution     |  -1   |
+| Willenskraft     |  -1   |
+| Charisma         |  +1   |
 
 ### Besondere Fertigkeiten
 * +2 auf Tiere abrichten & pflegen: Vögel
@@ -984,10 +984,10 @@ Eigenschaften“.
 
 ### Eigenschaftsmodifikationen
 
-| Eigenschaft       | Bonus   |
-| ----------------- |:-------:|
-| Stärke            | -1      |
-| Konstitution      | +1      |
+| Eigenschaft  | Bonus |
+| ------------ | :---: |
+| Stärke       |  -1   |
+| Konstitution |  +1   |
 
 ### Besondere Fertigkeiten
 
@@ -1057,14 +1057,14 @@ nicht mehr gefüttert...
 
 ### Eigenschaftsmodifikationen
 
-| Eigenschaft       | Bonus   |
-| ----------------- |:-------:|
-| Stärke            | +1      |
-| Konstitution      | +1      |
-| Wahrnehmung       | +1      |
-| Intelligenz       | -1      |
-| Willenskraft      | -1      |
-| Charisma          | -2      |
+| Eigenschaft  | Bonus |
+| ------------ | :---: |
+| Stärke       |  +1   |
+| Konstitution |  +1   |
+| Wahrnehmung  |  +1   |
+| Intelligenz  |  -1   |
+| Willenskraft |  -1   |
+| Charisma     |  -2   |
 
 ### Besondere Fertigkeiten
 
