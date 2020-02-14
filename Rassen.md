@@ -89,6 +89,13 @@ aussehen.
 | Intelligenz | +1      |
 | Charisma    | +1      |
 
+| Number | Next number | Previous number |
+| :------ |:--- | :--- |
+| Five | Six | Four |
+| Ten | Eleven | Nine |
+| Seven | Eight | Six |
+| Two | Three | One |
+
 ### Besondere Eigenheiten
 
 **Dämonisches Erbe:** Azshari beginnen das Spiel
