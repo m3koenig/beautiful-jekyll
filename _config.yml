@@ -20,9 +20,26 @@ description: A virtual proof that I'm awesome
 
 # List of links in the navigation bar
 navbar-links:
-  About Me: "aboutme"
+  about me: "aboutme"
+  Alchimistische Gebräue: "AlchimistischeGebraeue"
+  Arkane Magie & Lektionen: "ArkaneMagie&Lektionen"
+  Artefakte & MagischeGegenstände: "Artefakte&MagischeGegenstaende"
+  Fertigkeiten: "Fertigkeiten"
+  Foki&Zauberhelfer: "Foki&Zauberhelfer"
+  Geschenke & Dornen der Natur: "Geschenke&DornenDerNatur"
+  Gilden Buende und Orden: "GildenBuendeUndOrden"
+  Göttliche Magie: "GoettlicheMagie"
+  Handwerkshandbuch: "Handwerkshandbuch"
+  Kampfschulen-Mini: "Kampfschulen-Mini"
+  Kampfschulen: "Kampfschulen"
+  Kreaturen: "Kreaturen"
+  Lektionen & Berufswege: "Lektionen&Berufswege"
   Rassen: "Rassen"
-  Author's home: "http://deanattali.com"
+  Regionen: "Regionen"
+  Schwarzmarkt: "Schwarzmarkt"
+  Vorzüge & Schwächen: "Vorzuege&Schwaechen"
+  
+  
 
 # Image to show in the navigation bar - image must be a square (width = height)
 # Remove this parameter if you don't want an image in the navbar
