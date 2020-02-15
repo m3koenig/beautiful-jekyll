@@ -1,325 +1,922 @@
-# Beautiful Jekyll
+![alt text](https://raw.githubusercontent.com/m3koenig/ArcaneCodex/master/Image/Logo.png "Logo Title Text 1")
+
+Willkommen bei [Arcane Codex Fanarbeiten/Fankompendium](https://m3koenig.github.io/ArcaneCodex/)
+
+- [Arcane Codex - Fanarbeiten](#arcane-codex---fanarbeiten)
+- [Vorwort zur GitHub Version](#vorwort-zur-github-version)
+  - [Disclaimer](#disclaimer)
+  - [Verwendete Software](#verwendete-software)
+  - [Quellen](#quellen)
+    - [GUI Schaltflächen](#gui-schaltfl%c3%a4chen)
+    - [Logo](#logo)
+- [Gilden, Bünde und Orden](#gilden-b%c3%bcnde-und-orden)
+- [Besondere Regionen](#besondere-regionen)
+- [Rassen - Neben den Großen](#rassen---neben-den-gro%c3%9fen)
+- [Fertigkeiten](#fertigkeiten)
+- [Vorzüge & Schwächen](#vorz%c3%bcge--schw%c3%a4chen)
+- [Kampftechniken - Der eigene Weg](#kampftechniken---der-eigene-weg)
+- [Kampfschulen-Mini](#kampfschulen-mini)
+- [Lektionen & Berufswege der offiziellen Schulen](#lektionen--berufswege-der-offiziellen-schulen)
+- [Arkane Magie & Lektionen](#arkane-magie--lektionen)
+- [Göttliche Magie](#g%c3%b6ttliche-magie)
+- [Artefakte & Magische Gegenstände](#artefakte--magische-gegenst%c3%a4nde)
+- [Alchimistische Gebräue](#alchimistische-gebr%c3%a4ue)
+- [Foki & Zauberhelfer](#foki--zauberhelfer)
+- [Handwerks Handbuch](#handwerks-handbuch)
+- [Geschenke & Dornen Der Natur](#geschenke--dornen-der-natur)
+- [Kreaturen](#kreaturen)
+- [Schwarzmarkt](#schwarzmarkt)
+- [Glossar- Zurück zur Quelle](#glossar--zur%c3%bcck-zur-quelle)
+  - [Quelle & Ordnung](#quelle--ordnung)
+    - [Dieses Buch ist erstellt aus den Beiträgen von:](#dieses-buch-ist-erstellt-aus-den-beitr%c3%a4gen-von)
+    - [System der Angaben](#system-der-angaben)
+  - [Listung der Quellen](#listung-der-quellen)
+    - [1of](#1of)
+    - [Adárcris](#ad%c3%a1rcris)
+    - [Andreas Schnell](#andreas-schnell)
+    - [Apollyon](#apollyon)
+    - [Arren](#arren)
+    - [Athlan](#athlan)
+    - [Batman](#batman)
+    - [Black Raven](#black-raven)
+    - [bpkri](#bpkri)
+    - [Chewie](#chewie)
+    - [CoffeeFiend](#coffeefiend)
+    - [Crazydwarf](#crazydwarf)
+    - [DeadMatt (Matthias König)](#deadmatt-matthias-k%c3%b6nig)
+    - [Dante](#dante)
+    - [Daires](#daires)
+    - [Das Waldviech](#das-waldviech)
+    - [Dinius](#dinius)
+    - [Einar](#einar)
+    - [Faryol](#faryol)
+    - [Federkrieger](#federkrieger)
+    - [Guramath](#guramath)
+    - [Heidentöter](#heident%c3%b6ter)
+    - [Hellhaim](#hellhaim)
+    - [Ibag (Heidi Lawo-Heyduga)](#ibag-heidi-lawo-heyduga)
+    - [Jamez](#jamez)
+    - [Khan](#khan)
+    - [Kleinvieh](#kleinvieh)
+    - [Lexis](#lexis)
+    - [Longbow](#longbow)
+    - [Lord Azrael Raydenor](#lord-azrael-raydenor)
+    - [Lori Lerchenschrei](#lori-lerchenschrei)
+    - [Maranielle](#maranielle)
+    - [Materialgod](#materialgod)
+    - [mkill](#mkill)
+    - [ml](#ml)
+    - [Molotow](#molotow)
+    - [MrLive](#mrlive)
+    - [Mister X](#mister-x)
+    - [Narokh](#narokh)
+    - [Nebu](#nebu)
+    - [Neo](#neo)
+    - [Notna](#notna)
+    - [Nyarlathotep](#nyarlathotep)
+    - [Orgrim Doomaxe (Norbert Wenta)](#orgrim-doomaxe-norbert-wenta)
+    - [Phinix (Marcel Frömming)](#phinix-marcel-fr%c3%b6mming)
+    - [Putzi](#putzi)
+    - [Ragnar (Joachim Leibhammer)](#ragnar-joachim-leibhammer)
+    - [Raven](#raven)
+    - [Raziel](#raziel)
+    - [Schlachtenschreck](#schlachtenschreck)
+    - [Scorpio](#scorpio)
+    - [Scree](#scree)
+    - [Seeric](#seeric)
+    - [Sheep](#sheep)
+    - [SirGummibärchen](#sirgummib%c3%a4rchen)
+    - [Stahlfaust (Kai von Groddeck)](#stahlfaust-kai-von-groddeck)
+    - [Steinknacker-Troll](#steinknacker-troll)
+    - [Sun Ce](#sun-ce)
+    - [tger (Thomas Gerritzma)](#tger-thomas-gerritzma)
+    - [Tharak Radnik](#tharak-radnik)
+    - [Tybalt](#tybalt)
+  - [USUL](#usul)
+    - [Wardoo (Angelo Emmler)](#wardoo-angelo-emmler)
+    - [Whazbumm](#whazbumm)
+    - [Xeraness](#xeraness)
+  - [Schattige Quellen](#schattige-quellen)
+    - [Gegeimschaftswirrwarr](#gegeimschaftswirrwarr)
+    - [Komponentenhandbuch (Sammlung von Lord Azrael Raydenor)](#komponentenhandbuch-sammlung-von-lord-azrael-raydenor)
+  - [Unbekannt](#unbekannt)
 
-[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.me/daattali/20)
-[![Gem Version](https://badge.fury.io/rb/beautiful-jekyll-theme.svg)](https://badge.fury.io/rb/beautiful-jekyll-theme)
+# Arcane Codex - Fanarbeiten 
+V 6.00 24.04.2014
 
-> *Copyright 2019 [Dean Attali](https://deanattali.com)*
+Für den verantwortungsvollen Gebrauch gedacht
 
-**Beautiful Jekyll** is a ready-to-use template to help you create an awesome website quickly. Perfect for personal sites, blogs, or simple project websites.  [Check out a demo](https://deanattali.com/beautiful-jekyll) of what you'll get after just two minutes.  You can also look at [my personal website](https://deanattali.com) to see it in use, or see examples of websites other people created using this theme [here](#showcased-users-success-stories).
+Mehr Informationen über Arcane Codex und Nackter Stahl gibt es unter www.nackterstahl.de
+ArcaneCodex© und Nackter Stahl © sind eingetragene Warenzeichen von Alexander Junk und Saskia Maucher. Copyright © 2002-2019 Nackter Stahl® Verlag, Köln. Alle Rechte vorbehalten. Die Stählerenden Königreiche und 2W10 System, sowie Namen, Orte und Charaktere die erwähnt werden sind geschützte Titel von Nackter Stahl®,Copyright © 2002-2019. Vorkommende Namen und Personen sind frei erfunden. Jede Ähnlichkeit mit lebenden oder toten Personen ist rein zufällig und nicht beabsichtigt. Arcane Codex® ist ein fiktives Spiel.
 
-**If you enjoy this theme, please consider [supporting me](https://www.paypal.me/daattali/20) for developing and maintaining this template.**
+# Vorwort zur GitHub Version
 
-<p align="center">
-  <a href="https://www.paypal.me/daattali">
-    <img src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" />
-  </a>
-</p>
+Dies ist ein Fan Projekt, da ich das gesammelte Werk damals schon sehr gut gefunden habe. Forenbeiträge zu durchstöbern ist einfach nicht das gleiche :)
 
-### Table of contents
+Da die Arcane Codex Community alt wie die Drachen selbst sind und dabei auch mal etwas Geschichte vergissen, Personen dahin sterben oder auch Kataklysmen Welten stark zerstören sollen diese Werke hier weiter existieren.
 
-- [Prerequisites](#prerequisites)
-- [Build your website in 3 steps](#build-your-website-in-3-steps)
-- [Add your own content](#add-your-own-content)
-- [Last important thing: YAML front matter ("parameters" for a page)](#last-important-thing-yaml-front-matter-parameters-for-a-page)
-- [Features](#features)
-- [Creating a User Page vs a Project Page](#creating-a-user-page-vs-a-project-page)
-- [Showcased users (success stories!)](#showcased-users-success-stories)
-- [Advanced: local development](#advanced-local-development-using-docker)
-- [FAQ and support](#faq-and-support)
-- [Credits and contributions](#credits)
+Etwas sachlicher: Damit die PDF nicht im Nirvana verschwindet und damit wir ggf. an der Fansammlung weiterarbeiten können, gibt es dieses Repository!
 
-## Prerequisites
+Dieses Fankompendium/Fanarbeiten Dokument wurde aus dem PDF mit der Versionsnummer V6.00 24.04.2014 von Phinix (Marcel Frömming) erstellt. Zum aktuellen Zeitpunkt wurde versucht dies so zu übernehmen wie es war. Einige wenige Überschriften wurden angepasst.
+Es wird sich sicher der ein oder andere Formatierungsfehler eingeschlichen haben. Bitte meldet euch hier in den [Issues](https://help.github.com/en/articles/creating-an-issue) oder im Nackter Stahl Forum falls ihr eine eurer Texte gesehen habt und diese anpassen, verbessern, anders formatiert oder gar gelöscht haben wollt.
 
-- You need to have a GitHub account. If you don't have one, [sign up here](https://github.com/join) - it takes one minute. This is where your website will live - if you sign up with username `johnsmith` then your website will be `https://johnsmith.github.io`.
-- It would be helpful to understand what Markdown is and how to write it. Markdown is just a way to take a piece of text and format it to look a little nicer.  For example, this whole instruction set that you're reading is written in markdown - it's just text with some words being bold/larger/italicized/etc. I recommend taking 5 minutes to learn markdown [with this amazingly easy yet useful tutorial](https://markdowntutorial.com/).
+Allgemein, wenn ihr Dinge findet (Fehler oder ggf. formatierungen) meldet euch über diesen Wege oder dem Nackter Stahl Forum. Ich gebe mir Mühe dies zu betreuen und hätte nichts gegen erfahrene GitHub unterstützter.
 
-## Build your website in 3 steps
+Die erfahrenen GitHub User können sich dieses Projekt gerne Forken und anpassen und mir Pull Requests senden.
 
-Getting started is *literally* as easy as 1-2-3 :smile:
-Scroll down to see the steps involved, but here is a 40-second video just as a reference as you work through the steps.
+## Disclaimer
 
-![Installation steps](img/install-steps.gif)
+Ich möchte niemandes Geistiges Eigentum stehlen und/oder mich damit bereichern! Allgemein ist dies nur eine Sammlung an Fan Texten die niemandem Etwas einbringen und nur dem Spaß an dem Rollenspiel dienen.
+Hier möchte ich ausdrücklich darauf hinweisen, dass die hier aufgeführten Texte nicht (alle) aus meiner Feder stammen! Falls sich der Urheber findet und sein Werk nicht veröffentlicht sehen will oder einfach genannt werden möchte: Einfach (siehe oben) an mich wenden.
 
-### 1. Fork this repository
+## Verwendete Software
 
-(Assuming you are on this page and logged into GitHub) Fork this repository by clicking the *Fork* button on the top right corner. Forking means that you now copied this whole project and all the files into your account.
+Software die verwendet wurde diese Fansammlung auf GitHub zu hosten.
 
-### 2. Rename the repository to `<yourusername>.github.io`
+* Visual Studio Code
+* PDF To Markdown Converter - https://pdf2md.morethan.io/
 
-This will create a GitHub User page ready with the **Beautiful Jekyll** template that will be available at `https://<yourusername>.github.io` within a couple minutes.  To do this, click on *Settings* at the top (the cog icon) and there you'll have an option to rename.
+## Quellen
 
-### 3. Customize your website settings
+### GUI Schaltflächen
 
-Edit the `_config.yml` file to change all the settings to reflect your site. To edit the file, click on it and then click on the pencil icon (watch the video tutorial above if you're confused).  The settings in the file are fairly self-explanatory and I added comments inside the file to help you further. Any line that begins with a pound sign (`#`) is a comment, and the rest of the lines are actual settings.
+* [game-icons.net](https://game-icons.net/)
 
-Another way to edit the config file (or any other file) is to use [prose.io](https://prose.io/), which is just a simple interface to allow you to more intuitively edit files or add new files to your project.
+### Logo
 
-After you save your changes to the config file (by clicking on *Commit changes* as the video tutorial shows), your website should be ready in a minute or two at `https://<yourusername>.github.io`. Every time you make a change to any file, your website will get rebuilt and should be updated in about a minute or so.
+* [www.nackterstahl.de](http://www.nackterstahl.de/)
 
-You can now visit your shiny new website, which will be seeded with several sample blog posts and a couple other pages. Your website is at `https://<yourusername>.github.io` (replace `<yourusername>` with your user name). Do not add `www` to the URL - it will not work!
+# [Gilden, Bünde und Orden](GildenBuendeUndOrden.md)
 
-**Note:** The video above goes through the setup for a user with username `daattalitest`. I only edited one setting in the `_config.yml` file in the video, but **you should actually go through the rest of the settings as well. Don't be lazy, go through all the settings :)**
+Klicke auf die Überschrift um in den entsprechenden Bereich zu gelangen!
 
-## Add your own content
+# [Besondere Regionen](Regionen.md)
 
-To add pages to your site, you can either write a markdown file (`.md`) or you can write an HTML file directly.  It is much easier to write markdown than HTML, so I suggest you do that (use the [tutorial I mentioned above](https://markdowntutorial.com/) if you need to learn markdown). You can look at some files on this site to get an idea of how to write markdown. To look at existing files, click on any file that ends in `.md`, for example [`aboutme.md`](./aboutme.md). On the next page you can see some nicely formatted text (there is a word in bold, a link, bullet points), and if you click on the pencil icon to edit the file, you will see the markdown that generated the pretty text. Very easy!
+Klicke auf die Überschrift um in den entsprechenden Bereich zu gelangen!
 
-In contrast, look at [`index.html`](./index.html). That's how your write HTML - not as pretty. So stick with markdown if you don't know HTML.
+# [Rassen - Neben den Großen](Rassen.md)
 
-Any file that you add inside the [`_posts`](./_posts) directory will be treated as a blog entry.  You can look at the existing files there to get an idea of how to write blog posts.  After you successfully add your own post, you can delete the existing files inside [`_posts`](./_posts) to remove the sample posts, as those are just demo posts to help you learn.
+Klicke auf die Überschrift um in den entsprechenden Bereich zu gelangen!
 
-As mentioned previously, you can use [prose.io](https://prose.io/) to add or edit files instead of doing it directly on GitHub, it can be a little easier that way.
+# [Fertigkeiten](Fertigkeiten.md)
 
-## Last important thing: YAML front matter ("parameters" for a page)
+Klicke auf die Überschrift um in den entsprechenden Bereich zu gelangen!
 
-In order to have your new pages use this template and not just be plain pages, you need to add [YAML front matter](https://jekyllrb.com/docs/front-matter/) to the top of each page. This is where you'll give each page some parameters that I made available, such as a title and subtitle. I'll go into more detail about what parameters are available later. If you don't want to use any parameters on your new page (this also means having no title), then use the empty YAML front matter:
+# [Vorzüge & Schwächen](Vorzuege&Schwaechen.md)
 
-```
----
----
-```
+Klicke auf die Überschrift um in den entsprechenden Bereich zu gelangen!
 
-If you want to use any parameters, write them between the two lines. For example, you can have this at the top of a page:
+# [Kampftechniken - Der eigene Weg](Kampfschulen.md)
 
-```
----
-title: Contact me
-subtitle: Here you'll find all the ways to get in touch with me
----
-```
+Klicke auf die Überschrift um in den entsprechenden Bereich zu gelangen!
 
-You can look at the top of [`aboutme.md`](./aboutme.md) or [`index.html`](./index.html) as more examples.
+# [Kampfschulen-Mini](Kampfschulen-Mini.md)
 
-**Important takeaway: ALWAYS add the YAML front matter, which is two lines with three dashes, to EVERY page. If you have any parameters, they go between the two lines.**    
-If you don't include YAML then your file will not use the template.
+Klicke auf die Überschrift um in den entsprechenden Bereich zu gelangen!
 
-## Features
+# [Lektionen & Berufswege der offiziellen Schulen](Lektionen&Berufswege.md)
 
-### Mobile-first
-**Beautiful Jekyll** is designed to look great on both large-screen and small-screen (mobile) devices. Load up your site on your phone or your gigantic iMac, and the site will work well on both, though it will look slightly different.
+Klicke auf die Überschrift um in den entsprechenden Bereich zu gelangen!
 
-### Customizable
+# [Arkane Magie & Lektionen](ArkaneMagie&Lektionen.md)
 
-Many personalization settings in `_config.yml`, such as setting your name and site's description, changing the background colour/image, setting your avatar to add a little image in the navigation bar, customizing the links in the menus, customizing what social media links to show in the footer, etc.
+Klicke auf die Überschrift um in den entsprechenden Bereich zu gelangen!
 
-### Allowing users to leave comments
+# [Göttliche Magie](GoettlicheMagie.md)
 
-If you want to enable comments on your site, Beautiful Jekyll supports either the [Disqus](https://disqus.com/) comments plugin, [Facebook](https://developers.facebook.com/docs/plugins/comments) comments, [Staticman](https://staticman.net) or [JustComments](https://just-comments.com). If any of these are set in the configuration file, then all blog posts will have comments turned on by default. To turn off comments on a particular blog post, add `comments: false` to the YAML front matter. If you want to add comments on the bottom of a non-blog page, add `comments: true` to the YAML front matter.
+Klicke auf die Überschrift um in den entsprechenden Bereich zu gelangen!
 
-#### Disqus comments
+# [Artefakte & Magische Gegenstände](Artefakte&MagischeGegenstaende.md)
 
-To use Disqus, simply sign up to [Disqus](https://disqus.com/) and add your Disqus shortname to the `disqus` parameter in the `_config.yml` file.
+Klicke auf die Überschrift um in den entsprechenden Bereich zu gelangen!
 
-#### Facebook comments
+# [Alchimistische Gebräue](AlchimistischeGebraeue.md)
 
-To use Facebook comments, create a Facebook app using [Facebook developers](https://developers.facebook.com/docs/apps/register), and add the Facebook App ID to the `fb_comment_id` parameter in `_config.yml`.
+Klicke auf die Überschrift um in den entsprechenden Bereich zu gelangen!
 
-#### Staticman comments
+# [Foki & Zauberhelfer](Foki&Zauberhelfer.md)
 
-To use Staticman, you first need to invite `staticmanlab` as a collaborator to your repository (by going to your repository **Settings** page, navigate to the **Collaborators** tab, and add the username `staticmanlab`), and then accept the invitation by going to `https://staticman3.herokuapp.com/v3/connect/github/<username>/<repo-name>`. Lastly, fill in the `staticman` parameters in the Staticman section of `_config.yml`. You may also choose a different Staticman instance other than `staticmanlab`.
+Klicke auf die Überschrift um in den entsprechenden Bereich zu gelangen!
 
-Optional: You may want to configure a webhook to prevent old inactive branches (representing approved comments) from stacking up.  You can refer to [Staticman's documentation](https://staticman.net/docs/webhooks) for details.  Make sure to input the **Payload URL** according to your chosen `endpoint`.  For example, the default `endpoint` is `https://staticman3.herokuapp.com/v3/entry/github/`, so the corresponding **Payload URL** should be `https://staticman3.herokuapp.com/v1/webhook`.
+# [Handwerks Handbuch](HandwerksHandbuch.md)
 
-#### JustComments
+Klicke auf die Überschrift um in den entsprechenden Bereich zu gelangen!
 
-To use JustComments you first need to have an account. After you just need to copy the API key to the `just-comments` property in `_config.yml` file.
+# [Geschenke & Dornen Der Natur](Geschenke&DornenDerNatur.md)
 
-### Adding Google Analytics to track page views
+Klicke auf die Überschrift um in den entsprechenden Bereich zu gelangen!
 
-Beautiful Jekyll lets you easily add Google Analytics to all your pages. This will let you track all sorts of information about visits to your website, such as how many times each page is viewed and where (geographically) your users come from.  To add Google Analytics, simply sign up to [Google Analytics](https://www.google.com/analytics/) to obtain your Google Tracking ID, and add this tracking ID to the `google_analytics` parameter in `_config.yml`.
+# [Kreaturen](Kreaturen.md)
 
-### Sharing blog posts on social media
+Klicke auf die Überschrift um in den entsprechenden Bereich zu gelangen!
 
-By default, all blog posts will have buttons at the bottom of the post to allow people to share the current page on Twitter/Facebook/LinkedIn.  You can choose to enable/disable specific social media websites in the `_config.yml` file. You can also turn off the social media buttons on specific blog posts using `social-share: false` in the YAML front matter.
+# [Schwarzmarkt](Schwarzmarkt.md)
 
-### RSS feed
+Klicke auf die Überschrift um in den entsprechenden Bereich zu gelangen!
 
-Beautiful Jekyll automatically generates a simple RSS feed of your blog posts, to allow others to subscribe to your posts.  If you want to add a link to your RSS feed in the footer of every page, find the `rss: false` line in `_config.yml` and change it to `rss: true`.
 
-### Page types
+# Glossar- Zurück zur Quelle 
 
-- **post** - To write a blog post, add a markdown or HTML file in the `_posts` folder. As long as you give it YAML front matter (the two lines of three dashes), it will automatically be rendered like a blog post. Look at the existing blog post files to see examples of how to use YAML parameters in blog posts.
-- **page** - Any page outside the `_posts` folder that uses YAML front matter will have a very similar style to blog posts.
-- **minimal** - If you want to create a page with minimal styling (ie. without the bulky navigation bar and footer), assign `layout: minimal` to the YAML front matter.
-- If you want to completely bypass the template engine and just write your own HTML page, simply omit the YAML front matter. Only do this if you know how to write HTML!
+## Quelle & Ordnung
 
-### YAML front matter parameters
+### Dieses Buch ist erstellt aus den Beiträgen von:
 
-These are the main parameters you can place inside a page's YAML front matter that **Beautiful Jekyll** supports.
+1of3, Adárcris, Andreas Schnell, Apollyon,
+Arren, Athlan, Black Raven, Batman, bpkri,
+CertusRaven, Chewie, CoffeeFiend, Crazydwarf,
+Einar, DeadMatt, Dante, Daires, Das Waldviech,
+Dinus, Einar, Faryol, Guramath, Heidentöter,
+hellhaim, Ibag, Jamez, Khan, Kleinvieh, Lexis,
+Longbow, Lord Azrael Raydenor, Lori
+Lerchenschrei, Maranielle, Martin Killmann,
+Materialgod, mkill, ml128121988, Molotow,
+MrLive, Narokh, Nebu, Neo, Notna,
+Nyarlathotep, Orgrim Doomaxe, Phinix, Prajoss,
+Putzi, Rabe, Schlachtenschreck, Scree, Scorpio,
+Seeric, Sheep2045, SirGummibärchen,
+Stahlfaust, Steinknacker-Troll, Sun Ce,
+Teskurant, Tharak Radnik, tger, Tybalt, USUL,
+Wadroo, Whazbumm, Xeraness und viele
+weitere.
 
-Parameter   | Description
------------ | -----------
-title       | Page or blog post title
-subtitle    | Short description of page or blog post that goes under the title
-tags        | List of tags to categorize the post. Separate the tags with commas and place them inside square brackets. Example: `[personal, self help, finance]`
-bigimg      | Include a large full-width image at the top of the page.  You can either give the path to a single image, or provide a list of images to cycle through (see [my personal website](https://deanattali.com/) as an example).
-comments    | If you want do add comments to a specific page, use `comments: true`. Comments are automatically enabled on blog posts; to turn comments off for a specific post, use `comments: false`. Comments only work if you enable at least one provider(diqus, staticman, just-comments) in `_config.yml` file.
-show-avatar | If you have an avatar configured in the `_config.yml` but you want to turn it off on a specific page, use `show-avatar: false`. If you want to turn it off by default, locate the line `show-avatar: true` in the file `_config.yml` and change the `true` to `false`; then you can selectively turn it on in specific pages using `show-avatar: true`.
-image       | If you want to add a personalized image to your blog post that will show up next to the post's excerpt and on the post itself, use `image: /path/to/img`.
-share-img   | If you want to specify an image to use when sharing the page on Facebook or Twitter, then provide the image's full URL here.
-social-share | If you don't want to show buttons to share a blog post on social media, use `social-share: false` (this feature is turned on by default).
-use-site-title | If you want to use the site title rather than page title as HTML document title (ie. browser tab title), use `use-site-title: true`. When set, the document title will take the format `Site Title - Site Description` (eg. `My website - A virtual proof that name is awesome!`). By default, it will use `Page Title` if it exists, or `Site Title` otherwise.
-layout      | What type of page this is (default is `post` for blog posts and `page` for other pages. You can use `minimal` if you don't want a header and footer)
-js          | List of local JavaScript files to include in the page (eg. `/js/mypage.js`)
-ext-js      | List of external JavaScript files to include in the page (eg. `//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.2/underscore-min.js`). External JavaScript files that support [Subresource Integrity (SRI)](https://developer.mozilla.org/en-US/docs/Web/Security/Subresource_Integrity) can be specified using the `href` and `sri` parameters eg.<br/>`href: "//code.jquery.com/jquery-3.1.1.min.js"`<br/>`sri: "sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="`
-css         | List of local CSS files to include in the page
-ext-css      | List of external CSS files to include in the page. External CSS files using SRI (see `ext-js` parameter) are also supported.
-googlefonts | List of Google fonts to include in the page (eg. `["Monoton", "Lobster"]`)
-gh-repo   | If you want to show GitHub buttons at the top of a post, this sets the GitHub repo name (eg. `daattali/beautiful-jekyll`). You must also use the `gh-badge` parameter to specify what buttons to show.
-gh-badge  | Select which GitHub buttons to display, available options are: [star, watch, fork, follow]. You must also use the `gh-repo` parameter to specify the GitHub repo.
+### System der Angaben
 
-### Advanced features (including how to use a custom URL address for your site)
+| Kürzel | Beschreibung                    |
+| ------ | ------------------------------- |
+| GB&O   | Besondere Regionen              |
+| Rass   | Rassen                          |
+| Fert   | Fertigkeit                      |
+| Vo&S   | Vorzüge & Schwächen             |
+| KaTe   | Kampftechniken                  |
+| MSch   | Mini-Schulen                    |
+| L      | Lektionen                       |
+| LBar   | Barde                           |
+| LBer   | Berserker                       |
+| LGok   | Gossenkampf                     |
+| LKry   | Kryss                           |
+| LPra   | Praetoria                       |
+| LStF   | Stahlfaust                      |
+| LTM    | Tiermeister                     |
+| LWM    | Waffenmeister                   |
+| LWik   | Windkrieger                     |
+| LSK    | Schulenkombination              |
+| B      | Berufswegspezialisierungen      |
+| BPra   | Praetoria                       |
+| AM     | Arkane Magie                    |
+| AMNe   | Nekromantie                     |
+| AMIl   | Illusionen                      |
+| AMHe   | Hexerei                         |
+| AMEM   | Erd- & Metallzauber             |
+| AMFH   | Feuer- & Hitzezauber            |
+| AMWE   | Wasser- & Eiszauber             |
+| AMLB   | Luft- & Blitzzauber             |
+| AMAl   | Arkane Magie Alles              |
+| AL     | Arkane Lektionen                |
+| ALNe   | Nekromantie                     |
+| ALAl   | Arkane Lektionen Alle           |
+| GötM   | Göttliche Magie                 |
+| MG     | Magische Gegenstände            |
+| MGMe   | Metalle & Minerale              |
+| MGRi   | Ringe                           |
+| MGAm   | Amulette                        |
+| MGMM   | Mechanik & Magie                |
+| MGMW   | Magische Waffen                 |
+| MGMR   | Magisches Rüstzeug              |
+| MGG    | Gegenstände                     |
+| MGAr   | Artefakte                       |
+| MGRe   | Relikte                         |
+| MGBü   | Bücher                          |
+| MGAG   | Alchemistische Gebräu           |
+| MGFo   | Foki                            |
+| GD     | Geschenke & Dorden der Natur    |
+| GDGi   | Gifte                           |
+| GDDr   | Drogen                          |
+| GDKr   | Kräuter                         |
+| GDKh   | Krankheiten                     |
+| GDPi   | Pilze                           |
+| HaGu   | Handwerksguide                  |
+| Kr     | Kreaturen                       |
+| KrTi   | Tiere                           |
+| KrEW   | Elementarwesen                  |
+| KrNG   | Naturgeister                    |
+| KrBe   | Bestien                         |
+| KrKo   | Konstrukte                      |
+| KrDr   | Drachen                         |
+| KrDä   | Dämonen                         |
+| KrUt   | Untode                          |
+| KrPf   | Pflanzen                        |
+| KrAn   | Anderes                         |
+| SM     | Schwarzmark                     |
+| SMWa   | Waffen                          |
+| ERG    | Ergänzung seitens der Forenuser |
 
-I wrote [a blog post](https://deanattali.com/2015/03/12/beautiful-jekyll-how-to-build-a-site-in-minutes/) describing some more advanced features that I used in my website that are applicable to any Jekyll site.  It describes how I used a custom URL for my site (deanattali.com instead of daattali.github.io), how to add a Google-powered search into your site, and provides a few more details about having an RSS feed.
 
-## Creating a User Page vs a Project Page
+## Listung der Quellen 
 
-If you're not sure what the difference is, you can probably safely ignore this section.
+### 1of
 
-If you want to use this theme to host a website that will be available at `https://YOURUSERNAME.github.io`, then you do not need to read this section. That is called a User Page, you can only have one User Page in your GitHub account, and it is what you get by default when forking this project.
++ **KaTe:** Grenzläufer, Zwillingsseele
 
-If you want to use this theme to create a website for a particular repository, it will be available at `https://YOURUSERNAME.github.io/PROJECTNAME`, and that is called a [Project Page](https://help.github.com/articles/user-organization-and-project-pages/). You can have a Project Page for any repository you have on GitHub.
+### Adárcris
 
-**When using this theme for a Project Page, by default your website will be served from the `gh-pages` branch**, so you must take the following steps: 
++ **Rass:** Skarven
 
-1. [Delete the existing `gh-pages` branch](https://help.github.com/en/articles/creating-and-deleting-branches-within-your-repository#deleting-a-branch)
+### Andreas Schnell
 
-2. [Create a new branch named `gh-pages` from the `master` branch](https://help.github.com/en/articles/creating-and-deleting-branches-within-your-repository#creating-a-branch)
++ **BeRe:** Schattenkluft
 
-Alternatively, instead of the above two steps, you can opt to use the `master` branch instead of `gh-pages` branch as your website's source by choosing that option in the main Settings page. 
++ **Rass:** Tiefenzwerge, Wasidhe, Wyrdlinge
 
-## Showcased users (success stories!)
++ **KaTe:** Speerspitze
 
-To my huge surprise, Beautiful Jekyll has been used in over 500 websites in its first 6 months alone! Here is a hand-picked selection of some websites that use Beautiful Jekyll.
++ **KrAn:** Narg
 
-Want your website featured here? [Contact me](https://deanattali.com/aboutme#contact) to let me know about your website.
+### Apollyon
 
-### Project/company websites
++ **MGMM:** Botenvogel
 
-| Website | Description |
-| :------ |:----------- |
-| [repidemicsconsortium.org/](https://www.repidemicsconsortium.org/) | R Epidemics Consortium |
-| [vaccineimpact.org](https://www.vaccineimpact.org/) | Vaccine Impact Modelling Consortium |
-| [derekogle.com/fishR](http://derekogle.com/fishR/) | Using R for Fisheries Analyses |
-| [bigdata.juju.solutions](http://bigdata.juju.solutions) | Creating Big Data solutions Juju Solutions |
-| [joecks.github.io/clipboard-actions](http://joecks.github.io/clipboard-actions/) | Clipboard Actions - an Android app |
-| [deanattali.com/shinyjs](http://deanattali.com/shinyjs/) | shinyjs - an R package |
-| [blabel.github.io](http://blabel.github.io) | Library for canonicalising blank node labels in RDF graphs |
-| [reactionic.github.io](http://reactionic.github.io) | Create iOS and Android apps with React and Ionic |
-| [ja2-stracciatella.github.io](http://ja2-stracciatella.github.io) | Jagged Alliance 2 Stracciatella |
-| [ddocent.com](http://ddocent.com/) | RADSeq Bioinformatics and Beyond |
-| [guitarlessons.org](https://www.guitarlessons.org/) | Free online guitar lessons for all |
-| [terremotocentroitalia.info](https://www.terremotocentroitalia.info/) | Information about the 2016 Italy earthquake |
++ **MGG:** Elfenbrot
 
+### Arren
 
-### Personal websites
++ **GB&O:** Freunde der Zeit
 
-| Website | Who | What |
-| :------ |:--- | :--- |
-| [deanattali.com](https://deanattali.com) | Dean Attali | Creator of Beautiful Jekyll |
-| [ouzor.github.io](http://ouzor.github.io) | Juuso Parkkinen | Data scientist |
-| [derekogle.com](http://derekogle.com/) | Derek Ogle | Professor of Mathematical Sciences and Natural Resources |
-| [melyanna.github.io](http://melyanna.github.io/) | Melyanna | Shows off her nice art |
-| [chauff.github.io](http://chauff.github.io/) | Claudia Hauff | Professor at Delft University of Technology |
-| [kootenpv.github.io](http://kootenpv.github.io/) | Pascal van Kooten | Data analytics |
-| [sjackman.ca](http://sjackman.ca) | Shaun Jackman | PhD candidate in bioinformatics |
-| [anudit.in](http://www.anudit.in/) | Anudit Verma | Engineering student |
-| [sharepointoscar.github.io](http://sharepointoscar.github.io) | Oscar Medina | Independent Hacker |
-| [ocram85.com](https://ocram85.com) | Marco Blessing | A personal blog about PowerShell and automation |
-| [khanna.cc](https://khanna.cc/) | Harry Khanna | Law and software |
++ **Fert:** Zeitkontrolle
 
-## Advanced: Local development using Docker
++ **KaTe:** Zeitkrieger
 
-Beautiful Jekyll is meant to be so simple to use that you can do it all within the browser. However, if you'd like to develop locally on your own machine, that's possible too if you're comfortable with command line. Follow these simple steps set that up with Docker:
+### Athlan
 
-1. Make sure you have [Docker](https://www.docker.com/) installed.
++ **KaTe:** Panthéra
 
-2. Clone your repository locally.
+### Batman
 
-    ```bash
-    git clone https://github.com/<your_username>/<your_username>.github.io.git
-    ```
++ **Rass:** Drachlinge
 
-3. Run the following shell commands to build the docker image and start the container for the first time:
+### Black Raven
 
-    ```bash
-    cd <repository_folder>
-    docker build -t beautiful-jekyll "$PWD"
-    docker run -d -p 4000:4000 --name beautiful-jekyll -v "$PWD":/srv/jekyll beautiful-jekyll
-    ```
++ **Vo&S:** Schwächen (Eigener Humor,
+Einzelgänger, Faul, Ungläubig, Vergesslich,
+Verschwenderisch)
 
+### bpkri
 
-Now that Docker is set up, you do not need to run the above steps again. You can now view your website at http://localhost:4000/. You can start the container again in the future with:
++ **LWik:** Windkrieger (Schwachstellenanalyse)
 
-```bash
-docker start beautiful-jekyll
-```
+### Chewie
 
-And you can stop the server with:
++ **KaTe:** Untoter Schmetterer
 
-```bash
-docker stop beautiful-jekyll
-```
++ **AMHe:** Dämonenruf, Dämonenbann
 
-Whenever you make any changes to `_config.yml`, you must stop and re-start the server for the new config settings to take effect.
+### CoffeeFiend
 
-Disclaimer: I personally am NOT using local development so I don't know much about running Jekyll locally. If you follow this route, please don't ask me questions because unfortunately I honestly won't be able to help!
++ **KaTe:** Spürhund
 
-## FAQ and support
+### Crazydwarf
 
-If you need any help, I suggest heading over to the [Jekyll support forum](https://talk.jekyllrb.com/).
++ **Rass:** Erdgnome, Tiefenzwerge
 
-Beautiful Jekyll is actively used by thousands of people with wildly varying degrees of competency, so it's impossible to answer all the questions that may arise. Below are answers to a few very common questions. Most questions that I get asked are not directly related to this theme, and instead are more general questions about Jekyll or web development. Many such questions can be answered by reading the [Jekyll documentation](https://jekyllrb.com/) or with Google.
++ **KaTe:** Erdhüter, Kind des Waldes, Schild &
+Schutz
 
-#### How do I change the number of posts per page OR the colour of the navigation bar OR the image in the navigation bar OR ...?
+### DeadMatt (Matthias König)
 
-Beautiful Jekyll is built to be very customizable, and as such, many questions about "how do I change ..." can be answered by looking at the `_config.yml` file. The configuration file has many adjustable parameters to customize your site.
++ **KaTe:** Psioniker
 
-#### How do I add a favicon to my site?
+### Dante
 
-Easy! Just place a valid `favicon.ico` (or another valid favicon image) in the root directory of your project. And then wait! It can take a while to update.
++ **KaTe:** Samurai, Schrecken, Schwertmeister
 
-#### How do I move the blog to another page instead of having it on the home page?
+### Daires
 
-The default style of Beautiful Jekyll is to feature the blog feed on the front page. But for many sites that's not the ideal structure, and you may want to have a separate dedicated page for the blog posts. To have the blog hosted on a different URL (for example at `<mysite.com>/blog`), copy the `index.html` file into a folder with the same name as the desired page (for example, to `blog/index.html`), and in the `_config.yml` file you need to add a parameter `paginate_path: "/<page name>/page:num/"` (for example `paginate_path: "/blog/page:num/"`).
++ **KaTe:** Todesengel
 
-#### What size do you recommend using for the `bigimg` photos?
+### Das Waldviech
 
-Unfortunately, this is a no-answer! There isn't a one-size-fits-all solution to this, because every person will view your site on a different browser with different dimensions. Some browsers will have very wide aspect ratio, some will be narrower, some will be vertical (such as phones), different phones have different screens, etc. The image will always be centered, so the only tip I can give is that you should make sure the important part of the image is in the middle so that it'll always show. Other than that, every browser will show a different clipping of the image.
++ **BeRe:** Volk der wandernden Stadt
 
-#### How do I use MathJax equations in my posts?
++ **KaTe:** Almons heilende Hand
++ **MGAr:** Sattelpistolen des schwarzen Vollstreckers
++ **KrBe:** Rasscatrras
 
-MathJax can be easily integrated into your website with a one-line addition. You can see [this discussion](https://github.com/daattali/beautiful-jekyll/issues/195) for more information.
+### Dinius
 
-#### My project page appear to be broken after a recent update!
++ **KaTe:** Kunst des alten Gentleman
 
-In June 2019, some URL related settings have been adjusted to be more in-line with how Jekyll uses them officially. Project Page absolute links might appear to be broken if you haven't propagated all necessary changes to your local templates, or if you have created additional templates making use of old settings. If a link contains a duplicated project path component, this is most likely the cause. In summary:
+### Einar
 
-| &nbsp; | Old behavior | New behavior |
-| --- | --- | --- |
-| `url` setting | `https://user.github.io/projectname` | (unset, GitHub auto detects) |
-| `baseurl` setting | `/projectname` | (unset, GitHub auto detects) |
-| Absolute link construction | `{{ site.url }}/your/path` | `{{ '/your/path' \| absolute_url }}` |
-| Relative link construction | `{{ site.baseurl }}/your/path` | `{{ '/your/path' \| relative_url }}` |
++ **Vo&S:** Schwächen (Bluter, Lebensmüde)
 
-## Credits
+### Faryol
 
-This template was not made entirely from scratch. I would like to give special thanks to:
-- [Barry Clark](https://github.com/barryclark) and his project [Jekyll Now](https://github.com/barryclark/jekyll-now), from whom I've taken several ideas and code snippets, as well as some documenation tips.
-- [Iron Summit Media](https://github.com/IronSummitMedia) and their project [Bootstrap Clean Blog](https://github.com/IronSummitMedia/startbootstrap-clean-blog), from which I've used some design ideas and some of the templating code for posts and pagination.
++ **Rass:** Erdgnome
 
-I'd also like to thank [Dr. Jekyll's Themes](https://drjekyllthemes.github.io/), [Jekyll Themes](http://jekyllthemes.org/), and another [Jekyll Themes](http://jekyllrc.github.io/jekyllthemes/) for featuring Beautiful Jekyll in their Jekyll theme directories.
++ **KaTe:** Erdhüter, Tiefenaxt
 
-## Contributions
+### Federkrieger
 
-If you find anything wrong or would like to contribute in any way, feel free to create a pull request/open an issue/send me a message.  Any comments are welcome!
++ **KaTe:** Luftläufer
 
-Thank you to [all contributors](https://github.com/daattali/beautiful-jekyll/graphs/contributors). Special thanks to  [@OCram85](https://github.com/OCram85) and [@abelcheung](https://github.com/abelcheung) for contributing multiple times as well as helping with discussions.
+### Guramath
 
-If you do fork or clone this project to use as a template for your site, I would appreciate if you keep the link in the footer to this project.  I've noticed that several people who forked this repo removed the attribution and I would prefer to get the recognition if you do use this :)
++ **Rass:** Erdgnome
 
-## Known limitations
++ **KaTe:** Amboss & Esse, Erdhüter,Schwerttänzer
 
-- If you have a project page and you want a custom 404 page, you must have a custom domain.  See https://help.github.com/articles/custom-404-pages/.  This means that if you have a regular User Page you can use the 404 page from this theme, but if it's a website for a specific repository, the 404 page will not be used.
+### Heidentöter
 
-- If there are many navigation bar links and avatar, some of the links may get partially hidden behind the avatar. 
++ **Rass:** Erdgnome, Wyrdlinge
+
++ **KaTe:** Erdhüter
+**AMLB:** Energiestuhl
+
+### Hellhaim
+
+**KeTi:** Zornbringer
+
+### Ibag (Heidi Lawo-Heyduga)
+
++ **GB&O:** Custos Rhamae
+
++ **KaTe:** Ars Talearum
+
+### Jamez
+
++ **LKry:** Kryss (Sprungangriff), Mutation
+(Säureblut, Schnappbiss)
+
+### Khan
+
++ **GB&O:** Orden des Feuers
+
++ **KaTe:** Ritter des Feuers
+
+### Kleinvieh
+
++ **LBar:** Erwachte begabung (Glücksritter)
+
+### Lexis
+
++ **KaTe:** Hand des Todes
+
+### Longbow
+
++ **LKry:** Kryss (Sprungangriff)
+
+### Lord Azrael Raydenor
+
++ **KrTi:** Luchs, Schneeeule
+
+### Lori Lerchenschrei
+
++ **LStF:** Vargothische Burgtruppen
+(Burgverteidigung, Der Eid, Schädelspalter,
+Schildmauer, Schildtrommel, Schlachtruf der
+Burgtruppen, Tunnelbau)
+
++ **LSK:** Schlachtenwüter
+
++ **AMHe:** Fluch aufheben (Ritual), Fluch des
+ewigen Glückes Fruchtbarkeit, Unfruchtbarkeit.
+Zornesfluch
+
++ **GDGi:** Anima nigra, Feenphaleanopsisduft,
+Feenphaleanopsistee
+
++ **KrPf:** Anima enima/nigra/alba,
+Bombardierkaktus (Großdornige, Stachelige,
+Staubstachelige, Königspflanzen), Carniflora
+(Kleine, Normale, Große, Gigantische),
+Dorflinde, Feenphaleanopsis, Hohleiche,
+
+### Maranielle
+
++ **Rass:** Tiefenzwerge
+
++ **KaTe:** Abenteurer
+
+### Materialgod
+
++ **KaTe:** Kopfgeldjäger
+
+### mkill
+
++ **Fert:** Betteln, Geheimsprache (Krummfinger)
+
++ **Vo&S:** Vorzüge (Arkane Libido, Bergfreund,
+Drogenveteran, Gifttraining, Granitschädel,
+Kindergesicht, Kräftiger Kiefer, Perfektion,
+Regenbogenflügel, Sammler, Spezialist, Starke
+Beinmuskulatur, Tiefes Seelenband), Schwächen
+(Arkane Schwächeanfälle, Einsprachig,
+Flugunfähig, Gossensprache, Schwere Arkane
+Schwächeanfälle, Verkümmerte Arme, Tiefes
+Seelenband)
+
++ **KaTe:** Bettler, Heilende Hand, Sagenmeister
+LGoK: Gossenkampf (Kneipenrunde)
+
++ **AMWE:** Eisnadel
+
++ **AMIl:** Aufpolieren, Kaninchentrick
+AMHe: Valderens Ritual des Doppelgängers
+
++ **GötM:** Allgemein, Kampf (Göttlicher Schlag)
+
+### ml
+
++ **Rass:** Eisfeen
++ **Vo&S:** Vorzüge (Kältesegen des Malkoth)
+
+### Molotow
+
++ **KrTi:** Leuv (Baby, Kind, Soldat, Nestbauer,
+Jägerin, Vermehrer), Setinamücken
+KrDä: Maleb, Schattentod
+
+### MrLive
+
++ **KaTe:** Vierhänder
+LBer: Berserker (Flucht nach vorn!)
+
+### Mister X
+
++ **Vo&S:** Anerkannt, Angebohrener Zauberer,
+Goldener Riecher, Kind des Waldes,
+Warmblütig, Menschenfresser
+
+### Narokh
+
++ **KaTe:** Bergkönig, Derwisch
+
+### Nebu
+
++ **KaTe:** Schildmeister
+
+### Neo
+
++ **KaTe:** Söldner
+
+### Notna
+
++ **KaTe:** Falkenrapier, Kampfpriester, Kuss des
+Drachen, Ninja, Sabaterier, Schattenschütze,
+Student des großen Zahnrades
+HaGu: Alles was nicht aus QB entsprang, einige
+der Metalle z.B.
+
++ **MGG:** Ring der Fruchtbarkeit
+
+### Nyarlathotep
+
+MGAG: Ausdauertrank
++ **GDGi:** Kicherdoof
+
+### Orgrim Doomaxe (Norbert Wenta)
+
++ **Fert:** Arkaner Formelschmied, Arkane
+Improvisation, Flexible Magie, Wissen:
+Elementarrufer
+
++ **KaTe:** Blutkrieger, Drogenmischer, Keule,
+Taoist, Todesbringer, Todesritter
+LSK: Lichtbringer (Heiliges Schild), Panzerreiter
+(Donnernder Tod, Fest im Sattel, Gepanzert und
+gefährlich, Herumgerissen, Höllenritt,
+Kampfgefährten, Lanzenbrecher, Niederreiten,
+Stählernes Reittier, Undurchdringlich)
+AMIl: Aufpusten, Nackedei, Wie Knetmasse
+
++ **AMNe:** Aasskarabäen beschwören,
+Ätherangriff, Auskugeln, Befehlshaber der
+Toten, Beschwörungsmonolith, Erzwungenes
+Besetzen, Essenz des Todes, Fleichfraß,
+Fleichriss, Fluch des Geisterschiffes, Fokus des
+Todes, Geisterebenwandler, Grenze des Todes,
+Höhere Beschleunigung untoter Diener,
+Kannibalismus, Knochennova, Knochenschild
+bauen, Knochenschild beschwören, Knochen
+brechen, Knochensäule, Knochenspeer,
+Knochenwaffe beschwören, Knochenwand,
+Knochenwesen beschwören, Land der Toten,
+Lebender Verteidiger, Leiche erwecken, Mal der
+Seelenpein, Mächtige Knochenexplosion,
+Mehrfach Knochenpfeil, Metallfresser spucken,
+Monument des Grauens, Nexus der
+Geisterebene, Obelisk des Todes, Ritual der
+Seelenverbindung, Seelenbeschwörung,
+Seelengeschoss, Seelenklinge, Seelenräuber,
+Seelenverbindung, Seuchenherd, Spukhaus des
+Poltergeistes, Starke Knochenexplosion,
+Todesangst, Unsterblichkeit des Todes, Untoten
+Arbeiter erwecken, Verbündete des Todes,
+Verdammte der Ewigkeit, Verdorren
+Wiederherstellung des Obelisken
+
++ **AmHe:** Die Sinne des Vertrauten, Vertrauten
+beschwören
+
++ **AMEM:** Erde beschwören, Erdebenenwandler,
+Erdlauf, Essenz der Erde, Sandmeister,
+Schnelles Erdgnom beschwören, Schuttteppich,
+Steinkokon, Vibrationen spüren, Vor Scham im
+Erdboden versinken
+
++ **AMFH:** Essenz des Feuers, Feuer und Flamme,
+Feuerebenenwandler, Flammenfährte,
+Hitzeschlag Schnelles Feuerteufel beschwören,
+
++ **AMWE:** Festfrieren, Kochen vor Wut,
+Quappenschaar, Schnelles Wasserquappe
+beschwören, Wasserebnenwandler,
+
++ **AMLB:** An die Decke gehen, Druckkammer,
+Dünne Luft, Essenz der Luft, Geladene Waffe,
+Kettenblitz, Luftfolter, Luftsäule, Luftsprung,
+Rausch, Ritual des elektromagnetischen
+Impulses, Schallbarriere, Schnelles Energiewesen
+beschwören, Tragen, Überdruck,
+Windebenenwandler, Völlige Entladung,
+Windeseile, Windbote
+
++ **AMAl:** Schnelles Elementar beschwören,-
+Schnelles Elementarriesen beschwören
+
++ **AlNe:** Besetzen, Essenz der Geisterhand, Nexus
+auslösen, Weiche Knochen
+
++ **ALAl:** Elementarebenenbeschwörung, Geduld,
+Herr über sein Element
+
++ **GötM:** Pestilenz
+
++ **MGMW:** Ahnenschwert, Zauberstab
+
++ **MGMR:** Oger'sche Schlachtenrüstung
+
++ **MGG:** Bullenpeitsche des Schatzsuchers, Pinsel
+der Wahrheit
+GDDr: Geifersekret, Lachender Schelm Droge
+(LSD), Levasborke, Sinneshelfer
+GDKh: Feuerlunge, Gliederstarre, Grippaler
+Infekt, Grippe, Masern, Scharlach, Röteln,
+Windpocken, Optikultaris, Wyrdfrass, Lepra,
+Malaria, Cholera, Gelbfieber, Pest
++ **KrTi:** Aasskarabäen (Schwarm)
++ **KrBe:** Riesenkrabbe
+KrUt: Fleischriese, Knochenwesen, Poltergeist,
+Schädelsucher, Verfluchter Seemann
+SMWa: Tanto, Katana, No-Dachi
+
+### Phinix (Marcel Frömming)
+
++ **GB&O:** Schwesternschaft der Beannighe
++ **LTM:** Narben des Erzschlingers (Erzgespür,
+Geschenk der Erzschlinger, Lauf der
+Erzschlinger, Säure der Erzschlinger, Umarmung
+des Erzschlingers, Vertraue dem Erz, Waffen
+der Erzschlinger)
++ **LWM:** Rune (Rune der Stromsynchronisierung)
++ **GDGi:** Kreischerzinn
++ **KrTi:** Erzschlinger (Gemeine Erzschlinger,
+Blaublüter, Klingenschwänze, Kreischer,
+Markschlinger, Schwertläufer, Silberweber,
+Sonnentrümmer, Staubspeier, Zaubersammler)
+
++ **KrEW:** Aschkeiler
+KrNG: Beannighe, Blutrabe, Feenwüter,
+Korosklaue, Wyrmhorn
+KrDä: Loup noir
+ERG: Schildmeister (Ich bin der Wall!),
+Hintergrund (Abenteurer, Bergkönig,
+Glücksritter, Kampfpriester, Luftläufer,
+Nymphenlied, Todesengel)
+Anmerkung: Hat die Sammlung
+zusammengetragen
+
+### Putzi
+
++ **MGMR:** Trèmrak der Shaktar
++ **MGAr:** Sand der Zeit
+
++ **MGBü:** Buch der 1000 Seiten
+
+### Ragnar (Joachim Leibhammer)
+
++ **KaTe:** École générale libre de guerre
+MSch: Duellant, Gesetzeshüter,
+Kampfzauberwirker, Kunstschütze,
+Messerstecher, Schildspezialist, Stabkünstler,
+Trickser, Waldläufer
+
++ **MGMW:** Zauberklinge
+
+### Raven
+
++ **KaTe:** Meister der Puppen, Nymphenlied
+
+### Raziel
+
++ **KaTe:** Guerillaschütze
+
+### Schlachtenschreck
+
++ **GB&O:** Nachtfüchse
+
++ **Vo&S:** Totenangst
+
+### Scorpio
+
++ **Vo&S:** Verstossener
+
+### Scree
+
++ **KaTe:** Masseur
+
+### Seeric
+
++ **Rass:** Azshari
+
++ **MGAr:** Knochenharfe von Lirith Suhn
+
+### Sheep
+
++ **KaTe:** Geheimagent
+
+### SirGummibärchen
+
++ **KaTe:** Mönch
+
+### Stahlfaust (Kai von Groddeck)
+
++ **Fert:** Mechanoid Steuern
+
++ **KaTe:** Geister der Maschine, Gossenschlitzer,
+Unhold
+
++ **AMNe:** Binden der entschwindenden Seele,
+Blick durch Totes Fleisch, Eitrige Wunde,
+Erwecken des Unholds, Scheintod, Stimme aus
+der Gruft, Unheiliger Boden
+
++ **ALAl:** Arkane Rückgewinnung
+
++ **KrKo:** Hydrobots (in allen ihren Facetten)
+
+### Steinknacker-Troll
+
++ **KaTe:** Greifenklaue, Viper
+
++ **LPra:** Praetoria (Speer der Legion, Lanzenstoss
+der Legion), Imperato Victoria (Licentia
+Impetus)
+
++ **BPra:** Imperato Victoria (Mächtiger Speerstoß,
+Tödlicher Ansturm, Lanze des Triumphes,
+Scutum Verunae)
+
++ **MGMe:** Conventus Elementarum
+(Diamantklinge, Feuerschneide, Mondkristall,
+Regenschauer, Sonnenstrahl, Wirbelschlag,
+Zyklonstein)
+
++ **MGRi:** Ring der Drei Kreise
+
++ **MGAm:** Amulett der Essenz, Amulett der
+Gezeiten
+
++ **MGMW:** Felsdolch
+
++ **MGMR:** Drachenhauthandschuhe, Felsenstiefel,
+Umhang aus Regentropfen
+
++ **MGG:** Blitzphiole, Feuerperle,
+Gewittergefängnis, Kerze des Bibliothekars,
+Kristall der Vier Winde
+
++ **MGAr:** Grundstein aus den Tiefen
+MGAG: Coliantes Balsam, Essenz der Vier
+Winde, Essenz des Reinen Lebens, Harlekinsaft,
+Heldentrutz, Irgathasaft
+
++ **MGFo:** Erz der Erde, Ewiges Eis, Lapislazuli
+des Sturmes, Quelltropfen Tautropfenglas
+GDKr: Blutblüte, Essigkraut, Königsblatt,
+Rebenkraut, Steinlindenblatt
+GDPi: Blauer Schleimpilz, Eichenpilz, Ohnehut,
+Roter Schleimpilz, Schattenpilz,
+Schwarzaugenpilz
+
+### Sun Ce
+
++ **KaTe:** Amron’s Schule
+
+### tger (Thomas Gerritzma)
+
++ **Fert:** Flexible Magie, Wissen: Elementarrufer
+
++ **AMEM:** Abstand halten, Anschieben, Bäume
+ausreißen, Beschwörerturm der Erde, Erde
+aufwühlen, Erde säubern, Erdfluch, Erdhände,
+Erdhelfer beschwören, Erdrolle,
+Felsengefängnis, Große Steinexplosion,
+Hindernisse, Kleine Steinexplosion, Säulen der
+Erde, Splitterkristall, Stoppen, Stützende Kraft
+der Erde, Transportweg, Wandernde
+Erdstörung, Wunde stopfen
+
++ **AMFH:** Beschwörerturm des Feuers,
+Berührung des Feuers, Bogenschuss, Lavahände,
+Feuerwolke, Flamme der Heilung,
+Flammenspion beschwören, Flammenwache,
+Hitzestrahl, Lavawächter, Sphäre des Feuers
+AMWE: Aussaugen, Berührung des Wassers,
+Beschwörerturm des Wassers, Blutung
+kontrollieren, Bogenstrahl, Eisgrube, Eishände,
+Iglu, Kälteschock, Schwingungen spüren, Sphäre
+des Wassers, Wasserstacheln
+**AMLB:** Aufwecken, Beschleunigtes Geschoss,
+Berührung des Windes, Beschwörerturm der
+Luft, Druckluftkugel, Energiestrahl,
+Energieschlag, Erleichtern, Funkenstoß, Kraft
+der Winde, Luftbrücke, Luftwelle, Spontaner
+Blitzeinschlag, Unwegsames Gelände, Windgeist
+beschwören
+
++ **ALAl:** Gleichzeitige Kontrolle, Verstärken
+
++ **MGG:** Luftschiffe
+
++ **KrEW:** Erdhelfer, Flammenspion, Windgeist
+
++ **MGFo:** Fokusring
+
+### Tharak Radnik
+
++ **KaTe:** Schattenritter
+
+
+### Tybalt
+
++ **KaTe:** Glücksritter
+
+## USUL
+
++ **KaTe:** Kendo
+
+### Wardoo (Angelo Emmler)
+
++ **AMNe:** Kälte des Todes, Knochenfolter, Todesgriff
+
+### Whazbumm
+
++ **Vo&S:** Vorzüge (Mitglied in der Techgilde)
+
+### Xeraness
+
++ **Vo&S:** Schwächen (Schreckhaft, Vogelfrei)
+
+## Schattige Quellen
+
+### Gegeimschaftswirrwarr
+
++ **Rass:** Oger
+
+### Komponentenhandbuch (Sammlung von Lord Azrael Raydenor)
+
++ **MGAm:** Amulett der Waldfreundschaft
+
++ **MGRi:** Luftdruckring
+
++ **MGMM:** Atemspinne
+
++ **MGMW:** Abenteuerstab, Culduins Claymore,
+Donnerarm, Kleeblättchen, Klinge der
+Perfektion, Liondrielles Finger, Rhunische
+Ahnenaxt, Stab der Verteidigung, Stab des
+Waldes, Stab von Krykchan, Tolaks Reisszahn,
+Turiks Trümmeraxt, Wolfsklinge
+
++ **MGMR:** Auris Schild, Mantel des Nomex,
+Eisbärenrüstung, Handschuhe des Magiegespürs,
+Ilyrische Kriegsmaske, Schwanenrüstung,
+Zenturionenrüstung
+
++ **MGG:** Denksessel, Diktierfederkiel, Ewiger
+Bierkrug, Fatimas Schleier, Feuerfängerbeutel,
+Harfe des Wahren Wortes, Harfensaiten des
+Meisterbarden, Korrekturschriftrolle,
+Kühle/Warme Kappe, Segen des Imperators,
+Stab des Schäfers, Umhang der Nacht, Umhang
+des Reisenden, Zunderkästchen
+
++ **MGRe:** Claymore des Sean MacGoewin
+
++ **MGBü:** Schlaue Buch
+
+## Unbekannt
+
++ **KaTe:** Brennmeister, Diebeshandwerk
+
++ **MGMR:** Drachenhauthandschuhe

@@ -1,20 +1,13 @@
 ---
-layout: post
-title: Test Gott
-subtitle: Each post also has a subtitle
-gh-repo: daattali/beautiful-jekyll
-gh-badge: [star, fork, follow]
-tags: [test]
-comments: true
+layout: page
+title: Göttliche Magie
+subtitle: Wege der Herren
 ---
 
+# Inhalt
 
-
-# Göttliche Magie - Wege der Herren
-
-- [<a href="https://m3koenig.github.io/ArcaneCodex">**<-- Zurück zur Hauptseite**</a>](#zur%c3%bcck-zur-hauptseite)
-- [Göttliche Magie - Wege der Herren](#g%c3%b6ttliche-magie---wege-der-herren)
-  - [Allgemein](#allgemein)
+- [Inhalt](#inhalt)
+- [Allgemein](#allgemein)
     - [Segen (Ritual)](#segen-ritual)
     - [Glauben stärken](#glauben-st%c3%a4rken)
     - [Sünde spüren](#s%c3%bcnde-sp%c3%bcren)
@@ -39,7 +32,7 @@ comments: true
     - [Pestwolke](#pestwolke)
     - [Blutseuche](#blutseuche)
 
-## Allgemein
+# Allgemein
 
 Die folgenden Zauber unterstützen den Priester
 in seiner täglichen Arbeit als Anführer und

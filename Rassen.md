@@ -1,15 +1,12 @@
 ---
 layout: page
 title: Rassen
-subtitle: Why you'd want to go on a date with me
+subtitle: Neben den Großen
 ---
 
-# <a href="https://m3koenig.github.io/ArcaneCodex">**<-- Zurück zur Hauptseite**</a>
+# Inhalt
 
-# Rassen - Neben den Großen
-
-- [<a href="https://m3koenig.github.io/ArcaneCodex">**<-- Zurück zur Hauptseite**</a>](#zur%c3%bcck-zur-hauptseite)
-- [Rassen - Neben den Großen](#rassen---neben-den-gro%c3%9fen)
+- [Inhalt](#inhalt)
   - [Azshari - Kinder der Versuchung](#azshari---kinder-der-versuchung)
     - [Eigenschaftsmodifikationen](#eigenschaftsmodifikationen)
     - [Besondere Eigenheiten](#besondere-eigenheiten)
@@ -83,7 +80,7 @@ aussehen.
 
 ### Eigenschaftsmodifikationen
 
-test
+
 
 | Eigenschaft  | Bonus |
 | ------------ | :---: |
@@ -91,13 +88,6 @@ test
 | Konstitution |  -1   |
 | Intelligenz  |  +1   |
 | Charisma     |  +1   |
-
-| Number | Next number | Previous number |
-| :----- | :---------- | :-------------- |
-| Five   | Six         | Four            |
-| Ten    | Eleven      | Nine            |
-| Seven  | Eight       | Six             |
-| Two    | Three       | One             |
 
 ### Besondere Eigenheiten
 
