@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Göttliche Magie - Wege der Herren
-subtitle: Each post also has a subtitle
+title: Test
+subtitle: subtle
 tags: [test]
 comments: true
 ---
