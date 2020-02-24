@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Auslaugen
+subtitle: Each post also has a subtitle
 tags: [Gott]
 comments: true
 ---
