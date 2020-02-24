@@ -1,9 +1,8 @@
 ---
 layout: post
-title: Auslaugen
-subtitle: Each post also has a subtitle
-tags: [Gott]
-comments: true
+title: To be two
+subtitle: ... or not to be?
+tags: [books, shakespeare, test]
 ---
 
 # Auslaugen
