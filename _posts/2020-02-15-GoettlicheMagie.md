@@ -2,15 +2,15 @@
 layout: post
 title: Göttliche Magie - Wege der Herren
 subtitle: Each post also has a subtitle
-tags: [G]
+tags: [Go]
 comments: true
 ---
 
 
+# Test
+<!-- # Göttliche Magie - Wege der Herren -->
 
-# Göttliche Magie - Wege der Herren
-
-- [Göttliche Magie - Wege der Herren](#g%c3%b6ttliche-magie---wege-der-herren)
+- [Test](#test)
   - [Allgemein](#allgemein)
     - [Segen (Ritual)](#segen-ritual)
     - [Glauben stärken](#glauben-st%c3%a4rken)
