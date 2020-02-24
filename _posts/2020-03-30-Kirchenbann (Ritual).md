@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Kirchenbann (Ritual)
-tags: [Göttliche Magie]
+tags: [Gott]
 comments: true
 ---
 

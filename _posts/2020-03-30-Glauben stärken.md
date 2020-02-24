@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Glauben stärken
-tags: [Göttliche Magie]
+tags: [Gott]
 comments: true
 ---
 

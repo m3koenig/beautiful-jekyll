@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Avatar herbeirufen (Ritual)
-tags: [Göttliche Magie]
+tags: [Gott]
 comments: true
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Seucheatem
-tags: [Göttliche Magie]
+tags: [Gott]
 comments: true
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Eiterbeulenpest
-tags: [Göttliche Magie]
+tags: [Gott]
 comments: true
 ---
 

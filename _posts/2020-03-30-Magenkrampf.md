@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Magenkrampf
-tags: [Göttliche Magie]
+tags: [Gott]
 comments: true
 ---
 

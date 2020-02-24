@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Pestwolke
-tags: [Göttliche Magie]
+tags: [Gott]
 comments: true
 ---
 

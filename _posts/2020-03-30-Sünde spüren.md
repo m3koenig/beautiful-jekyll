@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Sünde spüren
-tags: [Göttliche Magie]
+tags: [Gott]
 comments: true
 ---
 

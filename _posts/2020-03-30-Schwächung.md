@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Schwächung
-tags: [Göttliche Magie]
+tags: [Gott]
 comments: true
 ---
 

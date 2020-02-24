@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Göttlicher Schlag
-tags: [Göttliche Magie]
+tags: [Gott]
 comments: true
 ---
 

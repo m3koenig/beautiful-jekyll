@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Gottesurteil (Ritual)
-tags: [Göttliche Magie]
+tags: [Gott]
 comments: true
 ---
 

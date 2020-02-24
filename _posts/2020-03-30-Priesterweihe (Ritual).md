@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Priesterweihe (Ritual)
-tags: [Göttliche Magie]
+tags: [Gott]
 comments: true
 ---
 

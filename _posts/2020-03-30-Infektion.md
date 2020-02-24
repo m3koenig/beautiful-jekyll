@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Infektion
-tags: [Göttliche Magie]
+tags: [Gott]
 comments: true
 ---
 

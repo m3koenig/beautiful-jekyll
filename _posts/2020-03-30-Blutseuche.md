@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Blutseuche
-tags: [Göttliche Magie]
+tags: [Gott]
 comments: true
 ---
 

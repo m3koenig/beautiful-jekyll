@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Segen (Ritual)
-tags: [Göttliche Magie]
+tags: [Gott]
 comments: true
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Heiliges Symbol weihen (Ritual)
-tags: [Göttliche Magie]
+tags: [Gott]
 comments: true
 ---
 

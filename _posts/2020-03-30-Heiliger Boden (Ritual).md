@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Heiliger Boden (Ritual)
-tags: [Göttliche Magie]
+tags: [Gott]
 comments: true
 ---
 
