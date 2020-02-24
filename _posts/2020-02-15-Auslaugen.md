@@ -5,7 +5,7 @@ subtitle: ... or not to be?
 tags: [books, shakespeare, test]
 ---
 
-# Auslaugen
+Auslaugen
 
 **Eigenschaft / Grad:** Will / 2
 **MW / Wiederstandswert:** 14 / SR
