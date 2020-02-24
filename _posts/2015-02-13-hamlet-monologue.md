@@ -1,6 +1,6 @@
 ---
 layout: post
-title: To be one
+title: To be o
 subtitle: ... or not to be?
 tags: [books, shakespeare, test]
 ---
