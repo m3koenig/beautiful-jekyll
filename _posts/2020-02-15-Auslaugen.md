@@ -19,4 +19,3 @@ krankhafte Erscheinung.
 Werden EP für den Zauber bezahlt ist die
 Schwäche permanent. Er kann diesen Zauber
 auch auf sich selbst anwenden.
-
