@@ -1,6 +1,6 @@
 ---
 layout: post
-title: To be two
+title: To be 2two
 subtitle: ... or not to be?
 tags: [books, shakespeare, test]
 ---
@@ -11,5 +11,4 @@ tags: [books, shakespeare, test]
 Test Test Test Test Hallo Welt Hallo Welt.
 
 **Eigenschaft / Grad:** Will / 2
-
 **MW / Wiederstandswert:** 14 / SR
